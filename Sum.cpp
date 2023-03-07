@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-cout<<"Hello World";
-cout<<"yo";
-return 0;
+    cout<<"Sum";
+    return 0;
 }
