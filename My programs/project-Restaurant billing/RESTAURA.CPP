@@ -1,0 +1,204 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,ch,total=0,b=30,c=40,d=50;
+char ans;
+cout<<"\n\n\n\t================="<<char(3)<<char(3)<<"WELCOME"<<char(3)<<char(3)<<"===============================";
+cout<<endl<<"\t|||||||||||||||||"<<char(2)<<char(2)<<" Enter the day(1-7) : "<<char(2)<<char(2)<<"|||||||||||||||";
+cout<<endl;
+cout<<"\t";
+cin>>a;
+switch(a)
+{
+case 1:
+{
+cout<<"\tSo today is Sunday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Burger 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Momos 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.FrenchFries 50Rs-";
+do{
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<" Do u want to contionue ";
+cin>>ans;
+}while(ans=='y'&&ans=='y');
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 2:
+{
+cout<<"\tSo today is Monday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Kathi Rolls 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Egg Rolls 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.chicken Rolls 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 3:
+{
+cout<<"\tSo today is Tuesday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Samosa 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Bread pakora 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.Kachoori 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 4:
+{
+cout<<"\tSo today is Wednesday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.pizza 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Dosa 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.Dhokla 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 5:
+{
+cout<<"\tSo today is Thursday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Biryani 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Special biryani 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.Chicken biryani 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 6:
+{
+cout<<"\tSo today is Friday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Razma rice 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Chole rice 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.Channa rice 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+break;
+case 7:
+{
+cout<<"\tSo today is saturday";
+cout<<endl;
+cout<<"\t"<<char(3)<<char(3)<<"Menu for today is :"<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(1)<<" 1.Pastry 30Rs-";
+cout<<endl<<"\t"<<char(1)<<" 2.Ice creams 40Rs-";
+cout<<endl<<"\t"<<char(1)<<" 3.Sandwich 50Rs-";
+cout<<endl<<"\t"<<char(2)<<" What do u want?";
+cin>>ch;
+if(ch==1)
+{
+total=total+b;
+}
+if(ch==2)
+{
+total=total+c;
+}
+if(ch==3)
+{
+total=total+d;
+}
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Thank You "<<char(3)<<char(3)<<char(3);
+cout<<endl<<"\t"<<char(3)<<char(3)<<char(3)<<" Your total is : "<<total<<"Rs-"<<char(3)<<char(3)<<char(3);
+}
+default:
+cout<<"\tWrong day entered";
+}
+getch();
+}

@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+clrscr();
+char str[20];
+int x,i;
+cout<<"enter a string : ";
+cin.getline(str,20);
+x=strlen(str);
+for(i=0;str[i]!=0;i++)
+{
+if(str[i]==' ')
+str[i]='_';
+}
+cout<<"\nchanged string is : ";
+cout<<str,x;
+getch();
+}

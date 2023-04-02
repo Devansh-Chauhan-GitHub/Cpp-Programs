@@ -1,0 +1,20 @@
+[Project]
+FileName=C:\lang\Projects\Tank3\Tank3directx7\Tank 3.0.dev
+Name=Tank 3.0
+Use_gpp=1
+UnitCount=1
+ResFiles=c:\lang\Projects\Tank3\Tank3directx7\rsrc.rc
+NoConsole=1
+IsDll=0
+Icon=c:\LANG\projects\tank3\tank3directx7\tank3.ico
+CompilerOptions=
+IncludeDirs=
+ObjFile=c:\lang\cpp\Dev-C++\Lib\DirectX\libdxguid.a c:\lang\cpp\Dev-C++\Lib\DirectX\libd3drm.a c:\lang\cpp\Dev-C++\Lib\DirectX\libd3dxof.a c:\lang\cpp\Dev-C++\Lib\DirectX\libddraw.a c:\lang\cpp\Dev-C++\Lib\DirectX\libdinp2.a c:\lang\cpp\Dev-C++\Lib\DirectX\libdinput.a c:\lang\cpp\Dev-C++\Lib\DirectX\libdplayx.a c:\lang\cpp\Dev-C++\Lib\DirectX\libdsetup.a c:\lang\cpp\Dev-C++\Lib\DirectX\libdsound.a c:\lang\cpp\Dev-C++\Lib\DirectX\libd3dim.a
+
+[Unit1]
+FileName=C:\lang\Projects\Tank3\Tank3directx7\tank3.cpp
+FileTime=715557719
+
+[Unit0]
+FileTime=710636730
+
