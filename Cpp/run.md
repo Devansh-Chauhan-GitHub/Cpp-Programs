@@ -1,0 +1,1 @@
+g++ -o FILENAME.exe FILENAME.cpp && ./FILENAME.exe
