@@ -7,16 +7,16 @@
 // INCLUDED HEADER FILES
 //**********************************************************
 
-#include <iostream.h>
-#include <fstream.h>
-#include <process.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctype.h>
-#include <conio.h>
-#include <dos.h>
-
+#include <iostream>
+#include <fstream>
+#include <process>
+#include <string>
+#include <stdlib>
+#include <stdio>
+#include <ctype>
+#include <conio>
+#include <dos>
+using namespace std;
 
 //**********************************************************
 // CLASS NAME : Menu

@@ -1,19 +1,15 @@
-/**********************************
-           SOURCE CODE
-**********************************/
-#include <iostream.h>
-#include <string.h>
-#include <conio.h>
-
+#include <iostream>
+#include <string>
+using namespace std;
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
 int checkwin();
-void board();
+int board();
 
 int main()
 {
 	int player = 1,i,choice;
 	char mark;
-	clrscr();
+	system("cls");
 	do
 	{
 		board();
@@ -43,7 +39,6 @@ int main()
 		{
 			cout<<"Invalid move ";
 			player--;
-			getch();
 		}
 		i=checkwin();
 		player++;
@@ -53,7 +48,6 @@ int main()
 		cout<<"==>\aPlayer "<<--player<<" win ";
 	else
 		cout<<"==>\aGame draw";
-	getch();
 	return 0;
 }
 /*********************************************
@@ -93,9 +87,9 @@ int checkwin()
 ********************************************************************/
 
 
-void board()
+int board()
 {
-	clrscr();
+	system("cls");
 	cout << "\n\n\tTic Tac Toe\n\n";
 	cout << "Player 1 (X)  -  Player 2 (O)" << endl << endl;
 	cout << endl;
